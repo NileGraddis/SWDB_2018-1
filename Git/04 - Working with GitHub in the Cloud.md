@@ -54,6 +54,7 @@ Now we want to make changes to the fork we just created, so let's bring it down 
 2. Copy the URL of the GitHub repository you want to clone to your clipboard.  (e.g. https://github.com/dyf/SWDB_2018.git)
 3. Clone the repo!
 ```bash
+$ cd ~/SageMaker/dyf # go to your home directory (replace with your user name)
 $ git clone https://github.com/dyf/SWDB_2018.git
 ```
 
@@ -69,6 +70,7 @@ Of course it's possible to work in the master branch directly, but you should pr
 
 1. What if you want to work on two different things at once?
 2. Editing master directly creates a parallel history that is inconsistent with the primary repository.  
+
 We'll now describe a process you can use to integrate others changes and make changes safely.  But first...
 
 #### Tell `git` about AllenInstitute/swdb_2018_tools
